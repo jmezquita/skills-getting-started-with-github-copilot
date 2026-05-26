@@ -16,7 +16,6 @@ def reset_activities():
     app_module.activities.clear()
     app_module.activities.update(deepcopy(BASE_ACTIVITIES))
 
-
 def test_get_activities_returns_seeded_data():
     # Arrange
 
@@ -77,7 +76,6 @@ def test_signup_rejects_unknown_activity():
     # Assert
     assert response.status_code == 404
     assert response.json()["detail"] == "Activity not found"
-
 
 def test_unregister_removes_participant():
     # Arrange
