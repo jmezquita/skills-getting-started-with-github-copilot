@@ -64,6 +64,11 @@ section h3 {
   border-radius: 10px;
   background: linear-gradient(180deg, #ffffff 0%, #f7f9ff 100%);
   box-shadow: 0 4px 10px rgba(26, 35, 126, 0.08);
+  transition: box-shadow 0.2s ease;
+}
+
+.activity-card:hover {
+  box-shadow: 0 6px 16px rgba(26, 35, 126, 0.15);
 }
 
 .activity-card h4 {
