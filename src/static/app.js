@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
       messageDiv.classList.add("hidden");
     }, 5000);
   }
-
+  
   // Function to fetch activities from API
   async function fetchActivities() {
     try {
